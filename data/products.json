@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "name": "Lamborghini Aventador",
+        "image": "images\/xelabo1.jpg",
+        "price": "230000000",
+        "description": "Xe th\u1ec3 thao sang tr\u1ecdng, t\u1ed1c \u0111\u1ed9 cao, thi\u1ebft k\u1ebf \u0111\u1eb3ng c\u1ea5p.",
+        "extra_images": [
+            "images\/xelabo2.jpg",
+            "images\/xelabo3.jpg"
+        ],
+        "extra_description": "\u0110\u1ed9ng c\u01a1 V12, t\u0103ng t\u1ed1c 0-100km\/h trong 2.8 gi\u00e2y.",
+        "colors": [
+            "\u0110\u1ecf",
+            "V\u00e0ng",
+            "Xanh d\u01b0\u01a1ng"
+        ],
+        "created_by": "admin"
+    },
+    {
+        "id": 2,
+        "name": "Mercedes S-Class",
+        "image": "images\/mec1.jpg",
+        "price": 2000000000,
+        "description": "Xe h\u1ea1ng sang, n\u1ed9i th\u1ea5t cao c\u1ea5p, c\u00f4ng ngh\u1ec7 ti\u00ean ti\u1ebfn.",
+        "extra_images": [
+            "images\/mec2.jpg",
+            "images\/mec3.jpg"
+        ],
+        "extra_description": "H\u1ec7 th\u1ed1ng an to\u00e0n ch\u1ee7 \u0111\u1ed9ng, n\u1ed9i th\u1ea5t b\u1ecdc da cao c\u1ea5p.",
+        "colors": [
+            "\u0110en",
+            "B\u1ea1c",
+            "Tr\u1eafng"
+        ],
+        "created_by": "admin"
+    },
+    {
+        "id": 3,
+        "name": "VinFast VF9",
+        "image": "images\/vin1.jpg",
+        "price": 2400000000,
+        "description": "D\u00f2ng xe \u0111i\u1ec7n th\u00f4ng minh, th\u00e2n thi\u1ec7n v\u1edbi m\u00f4i tr\u01b0\u1eddng.",
+        "extra_images": [
+            "images\/vin2.jpg",
+            "images\/vin3.jpg"
+        ],
+        "extra_description": "Pin dung l\u01b0\u1ee3ng l\u1edbn, ph\u1ea1m vi ho\u1ea1t \u0111\u1ed9ng 500km\/l\u1ea7n s\u1ea1c.",
+        "colors": [
+            "\u0110\u1ecf",
+            "Tr\u1eafng",
+            "Xanh d\u01b0\u01a1ng"
+        ],
+        "created_by": "admin"
+    },
+    {
+        "id": 4,
+        "name": "Lexus LX 570",
+        "image": "images\/le1.jpg",
+        "price": 2100000000,
+        "description": "Xe sang tr\u1ecdng, v\u1eadn h\u00e0nh \u00eam \u00e1i, ti\u1ebft ki\u1ec7m nhi\u00ean li\u1ec7u.",
+        "extra_images": [
+            "images\/le2.jpg",
+            "images\/le3.jpg"
+        ],
+        "extra_description": "C\u00f4ng ngh\u1ec7 hybrid, h\u1ec7 th\u1ed1ng gi\u1ea3i tr\u00ed cao c\u1ea5p.",
+        "colors": [
+            "\u0110en",
+            "X\u00e1m",
+            "V\u00e0ng"
+        ],
+        "created_by": "admin"
+    },
+    {
+        "id": 5,
+        "name": "Jeep Wrangler",
+        "image": "images\/jeep1.jpg",
+        "price": 1600000000,
+        "description": "D\u00f2ng xe \u0111\u1ecba h\u00ecnh m\u1ea1nh m\u1ebd, b\u1ec1n b\u1ec9, v\u01b0\u1ee3t m\u1ecdi \u0111\u1ecba h\u00ecnh.",
+        "extra_images": [
+            "images\/jeep2.jpg",
+            "images\/jeep3.jpg"
+        ],
+        "extra_description": "\u0110\u1ed9ng c\u01a1 4x4, h\u1ec7 th\u1ed1ng treo off-road cao c\u1ea5p.",
+        "colors": [
+            "Cam",
+            "\u0110\u1ecf",
+            "\u0110en"
+        ],
+        "created_by": "admin"
+    },
+    {
+        "id": 6,
+        "name": "Suzuki Jimny",
+        "image": "images\/su1.jpg",
+        "price": 800000000,
+        "description": "Xe ti\u1ebft ki\u1ec7m nhi\u00ean li\u1ec7u, gi\u00e1 r\u1ebb, b\u1ec1n b\u1ec9 theo th\u1eddi gian.",
+        "extra_images": [
+            "images\/su2.jpg",
+            "images\/su3.jpg"
+        ],
+        "extra_description": "M\u1ee9c ti\u00eau th\u1ee5 nhi\u00ean li\u1ec7u th\u1ea5p, b\u1ea3o d\u01b0\u1ee1ng d\u1ec5 d\u00e0ng.",
+        "colors": [
+            "V\u00e0ng",
+            "\u0110\u1ecf",
+            "Xanh l\u00e1"
+        ],
+        "created_by": "admin"
+    },
+    {
+        "id": 7,
+        "name": "Honda Civic",
+        "image": "images\/hon1.jpg",
+        "price": 899000000,
+        "description": "D\u00f2ng xe gia \u0111\u00ecnh, an to\u00e0n, ph\u00f9 h\u1ee3p cho m\u1ecdi h\u00e0nh tr\u00ecnh.",
+        "extra_images": [
+            "images\/hon2.jpg",
+            "images\/honda3.jpg"
+        ],
+        "extra_description": "Khoang n\u1ed9i th\u1ea5t r\u1ed9ng r\u00e3i, h\u1ec7 th\u1ed1ng h\u1ed7 tr\u1ee3 l\u00e1i th\u00f4ng minh.",
+        "colors": [
+            "Tr\u1eafng",
+            "\u0110en",
+            "Xanh d\u01b0\u01a1ng"
+        ],
+        "created_by": "admin"
+    },
+    {
+        "id": 8,
+        "name": "Mazda CX-5",
+        "image": "images\/ma1.jpg",
+        "price": 999000000,
+        "description": "Xe phong c\u00e1ch th\u1ec3 thao, hi\u1ec7u su\u1ea5t cao, thi\u1ebft k\u1ebf hi\u1ec7n \u0111\u1ea1i.",
+        "extra_images": [
+            "images\/mazda.jpg",
+            "images\/ma3.jpg"
+        ],
+        "extra_description": "C\u00f4ng ngh\u1ec7 Skyactiv, h\u1ed9p s\u1ed1 t\u1ef1 \u0111\u1ed9ng 6 c\u1ea5p.",
+        "colors": [
+            "\u0110\u1ecf",
+            "X\u00e1m",
+            "Tr\u1eafng"
+        ],
+        "created_by": "admin"
+    },
+    {
+        "id": 9,
+        "name": "Bentley Continental GT",
+        "image": "images\/ben1.jpg",
+        "price": 12099000000,
+        "description": "Xe si\u00eau sang, \u0111\u1eb3ng c\u1ea5p doanh nh\u00e2n, n\u1ed9i th\u1ea5t xa hoa.",
+        "extra_images": [
+            "images\/ben2.jpg",
+            "images\/bentley.jpg"
+        ],
+        "extra_description": "Ch\u1ea5t li\u1ec7u da cao c\u1ea5p, \u0111\u1ed9ng c\u01a1 W12 m\u1ea1nh m\u1ebd.",
+        "colors": [
+            "\u0110en",
+            "B\u1ea1c",
+            "X\u00e1m"
+        ],
+        "created_by": "admin"
+    }
+]

@@ -1,0 +1,189 @@
+/* Giao diện thẻ sản phẩm */
+
+.card.car-display {
+    background-color: #1f1f1f; 
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 12px;
+    overflow: hidden; /*Khi nội dung bên trong phần tử vượt quá kích thước (width hoặc height) đã khai báo, phần vượt đó sẽ bị ẩn đi, không hiển thị ra ngoài*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* tạo hiệu ứng mượt khi  thẻ sp di chuyển */
+    cursor: pointer; /*đổi hình con trỏ chuột thành bàn tay khi di chuột qua một phần tử */
+}
+
+.card.car-display:hover {
+    transform: translateY(-8px) scale(1.03); /* khi chuột vào thẻ sẻ to hơn*/
+    box-shadow: 0 15px 30px rgba(255, 255, 255, 0.1); /* có độ bóng*/
+}
+
+
+/* Bo tròn ảnh sản phẩm */
+
+.card.car-display img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover; /* điều chỉnh kích thước của hình ảnh*/
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.card.car-display:hover img {
+    transform: scale(1.05);
+}
+
+
+/* Thân thẻ */
+
+.card.car-display .card-body {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column; /*các phần tử con sẽ được xếp từ trên xuống dưới, giống như cột.;*/
+}
+
+
+/* Tiêu đề */
+
+.card.car-display .card-title {
+    color: #fff;
+    font-weight: bold; /* in đậm văn bản*/
+}
+
+
+/* Mô tả */
+
+.card.car-display .text-muted {
+    color: #bbb !important;
+}
+
+
+/* Giá */
+
+.card.car-display .text-danger {
+    color: #ff4d4d !important;
+    font-weight: bold;
+}
+
+
+/* Nút "Chi tiết" */
+
+.card.car-display .btn-outline-info {
+    border-color: #0dcaf0;
+    color: #0dcaf0;
+    transition: 0.3s;
+}
+
+.card.car-display .btn-outline-info:hover {
+    background-color: #0dcaf0;
+    color: #000;
+}
+
+
+/* Nút "Thêm vào giỏ" */
+
+.card.car-display .btn-primary {
+    background-color: #e60023;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.card.car-display .btn-primary:hover {
+    background-color: #ff0033;
+}
+
+
+/* Khoảng cách các nút */
+
+.card.car-display .btn {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.stats {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 15px;/* kcach ben trong*/
+    margin-bottom: 20px;/* kcach ngoai*/
+    border-radius: 8px;
+}
+
+.stats p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.admin-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #e60023;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff0033;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+.stats {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.stats p,
+.stats li {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.stats ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/* phần css của cart*/
+
+.table-hover tbody tr:hover {
+    background-color: #f2f9ff;
+}
+
+.table thead th {
+    font-size: 16px;
+    font-weight: 600; /* độ đậm của văn bản*/
+}
+
+.table tfoot td {
+    font-size: 18px;
+}
